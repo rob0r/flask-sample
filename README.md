@@ -1,9 +1,9 @@
 # flask-sample
 Sample flask app with bootstrap
 
-[flask](http://flask.pocoo.org/)
-[flask-bootstrap](https://pythonhosted.org/Flask-Bootstrap/)
-[flask-nav](http://pythonhosted.org/Flask-Bootstrap/nav.html)
+--* [flask](http://flask.pocoo.org/)
+--* [flask-bootstrap](https://pythonhosted.org/Flask-Bootstrap/)
+--* [flask-nav](http://pythonhosted.org/Flask-Bootstrap/nav.html)
 
 ## run
 virtualenv recommended
