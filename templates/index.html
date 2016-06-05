@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+	<div class="jumbotron">
+		<div class="row">
+    		<div class="col-sm-4">
+    			<span class="text-left"></span>
+    		</div>
+    		<div class="col-sm-4">
+    			<span class="text-center"><h1>welcome</h1></span>
+    		</div>
+    		<div class="col-sm-4">
+    			<span class="text-right"></span>
+    		</div>
+  		</div>
+	</div>
+</div>
+<div class="container">
+	<pre class="text-center">
+Flask-bootstrap {{ version_info.flask_bootstrap_version }} demo app :)
+
+{{ version_info.sys_version }}	
+{{ version_info.platform_version }}
+	</pre>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-8"> </div>
+        <div class="col-xs-6 col-md-4"> </div>
+    </div>
+</div>
+
+
+{{super()}}
+{% endblock %}
